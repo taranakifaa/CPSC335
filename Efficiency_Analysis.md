@@ -27,7 +27,7 @@ sort[L] #note the time of this executing: 0.0003 s
 L[6,5,0,1,7] # we will assign the first element; min_val = 6 ; we have to check through all the elements
 #Note that we iterate through all the elements to see which is smaller
 ----
-##Example 1 (non-efficient): 
+## Example 1 (non-efficient): 
 def min_v1(S):
 min_val = S[0] # 1
 for x in S: # for loop runs n times
