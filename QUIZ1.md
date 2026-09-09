@@ -1,8 +1,34 @@
-# 📚 Quiz Review
+<img width="1082" height="630" alt="image" src="https://github.com/user-attachments/assets/d23d1b76-d471-46b0-b369-ba46bc3c5b0e" /># 📚 Quiz Review
 
 **Quiz:** 9/9
 **Presentation:** 9/18
 
+## Experimental Analysis
+
+• Steps:
+– Implement algorithm in a given programming language
+– Measure runtime with several inputs
+– Infer running time from the inputs
+• Pros:
+– No math, straightforward method
+• Cons:
+– Not always reliable, heavily dependent on
+• the sample inputs
+• programming language and environment
+
+## Mathematical Analysis
+
+• Uses math to estimate the running time of an
+algorithm
+– Dependent of the activities/steps counts/input size
+
+• Pros:
+– formal, rigorous
+– no need to implement algorithms
+– machine-independent
+
+• Cons:
+– math knowledge
 ---
 
 # 1. Asymptotic Notations
