@@ -108,3 +108,16 @@ If:
 → **NO:** Calculate another iteration
 
 → **YES:** PageRank has converged
+
+## PageRank Iterative Procedure
+
+Given a graph with **N nodes**:
+
+- **Initialize:** Assign each node an initial PageRank of **1/N**
+- **Calculate:**  
+  **rⱼᵗ⁺¹ = Σᵢ→ⱼ (rᵢᵗ / dᵢ)**
+- **Repeat:** Use the new PageRank values for the next iteration
+- **Stop when converged:**  
+  **Σᵢ |rᵢᵗ⁺¹ − rᵢᵗ| < ε**
+
+**Convergence:** The PageRank values have stopped changing significantly.
